@@ -1,9 +1,9 @@
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import NavBar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import CartWidget from './CartWidget';
-
 
 const NavBarapp = () => {
     return ( 
@@ -26,10 +26,9 @@ const NavBarapp = () => {
                 </NavDropdown>
               </Nav>
             </NavBar.Collapse>
-            
           </Container>
           <CartWidget />    
-    </NavBar>
+        </NavBar>
   );
 };
 
