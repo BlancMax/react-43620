@@ -4,6 +4,7 @@ import NavBarapp from './components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CartWidget from './components/CartWidget';
+import Catalogo from './components/Catalogo';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <ItemListContainer greeting={"Bienvenidos a Cerveceria Mil Nueve 86"} />
         <CartWidget />
       </header>
-      
+      <Catalogo />
     </div>
   );
 }
